@@ -1,4 +1,4 @@
-# codemonster-ru/env
+# codemonster-ru/config
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/codemonster-ru/config.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/config)
 [![Total Downloads](https://img.shields.io/packagist/dt/codemonster-ru/config.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/config)
