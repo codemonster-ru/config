@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/codemonster-ru/config.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/config)
 [![Total Downloads](https://img.shields.io/packagist/dt/codemonster-ru/config.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/config)
 [![License](https://img.shields.io/packagist/l/codemonster-ru/config.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/config)
-[![Tests](https://github.com/codemonster-ru/config-php/actions/workflows/tests.yml/badge.svg)](https://github.com/codemonster-ru/config-php/actions/workflows/tests.yml)
+[![Tests](https://github.com/codemonster-ru/config/actions/workflows/tests.yml/badge.svg)](https://github.com/codemonster-ru/config/actions/workflows/tests.yml)
 
 Simple configuration loader and helper for PHP applications.
 
@@ -60,4 +60,4 @@ composer test
 
 ## 📜 License
 
-[MIT](https://github.com/codemonster-ru/config-php/blob/main/LICENSE)
+[MIT](https://github.com/codemonster-ru/config/blob/main/LICENSE)
