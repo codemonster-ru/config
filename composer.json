@@ -3,7 +3,7 @@
     "description": "Simple configuration loader and helper for PHP applications",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/codemonster-ru/config-php",
+    "homepage": "https://github.com/codemonster-ru/config",
     "authors": [
         {
             "name": "Kirill Kolesnikov",
@@ -42,7 +42,7 @@
         "env"
     ],
     "support": {
-        "issues": "https://github.com/codemonster-ru/config-php/issues",
-        "source": "https://github.com/codemonster-ru/config-php"
+        "issues": "https://github.com/codemonster-ru/config/issues",
+        "source": "https://github.com/codemonster-ru/config"
     }
 }
