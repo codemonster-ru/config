@@ -1,9 +1,10 @@
 {
     "name": "codemonster-ru/config",
-    "description": "Simple configuration loader and helper for PHP applications",
+    "description": "Lightweight configuration loader for PHP applications",
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/codemonster-ru/config",
+    "readme": "README.md",
     "authors": [
         {
             "name": "Kirill Kolesnikov",
@@ -15,14 +16,6 @@
     "autoload": {
         "psr-4": {
             "Codemonster\\Config\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Codemonster\\Config\\Tests\\": "tests/"
         }
     },
     "require": {

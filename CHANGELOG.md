@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.1] - 2025-10-05
+
+### Fixed
+
+-   Removed global `config()` helper from the package to keep framework responsibility in `codemonster-ru/annabel`.
+-   Removed unused `autoload-dev` section from `composer.json`.
+-   Minor internal cleanup and metadata verification.
+
+### Docs
+
+-   Updated `README.md` to reflect removal of the global helper.  
+    Usage examples now use static `Codemonster\Config\Config` API.
+
+### Tests
+
+-   Removed test cases for deprecated global helper.  
+    Tests now cover only `Config::get()`, `Config::set()`, and `Config::all()`.
+
 ## [2.0.0] - 2025-09-28
 
 ### Changed

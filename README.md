@@ -26,12 +26,14 @@ Config::load(__DIR__ . '/config');
 ### 2. Access config values
 
 ```php
+use Codemonster\Config\Config;
+
 // get values
-$name = config('app.name', 'Default');
-$dbHost = config('database.host');
+$name = Config::get('app.name', 'Default');
+$dbHost = Config::get('database.host');
 
 // set values dynamically
-config(['app.debug' => true]);
+Config::set('app.debug', true);
 
 // get all configs
 $all = Config::all();

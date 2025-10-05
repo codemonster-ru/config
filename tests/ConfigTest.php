@@ -49,23 +49,8 @@ class ConfigTest extends TestCase
     public function test_can_set_new_value()
     {
         Config::set('app.debug', true);
+
         $this->assertTrue(Config::get('app.debug'));
-    }
-
-    public function test_can_use_helper_function_get()
-    {
-        $this->assertEquals('Codemonster', config('app.name'));
-    }
-
-    public function test_can_use_helper_function_get_with_default()
-    {
-        $this->assertEquals('fallback', config('nonexistent.key', 'fallback'));
-    }
-
-    public function test_can_use_helper_function_set()
-    {
-        config(['database.host' => '127.0.0.1']);
-        $this->assertEquals('127.0.0.1', config('database.host'));
     }
 
     public function test_can_get_all_configs()
