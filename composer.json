@@ -37,5 +37,10 @@
     "support": {
         "issues": "https://github.com/codemonster-ru/config/issues",
         "source": "https://github.com/codemonster-ru/config"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.0.x-dev"
+        }
     }
 }
